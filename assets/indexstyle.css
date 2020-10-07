@@ -1,0 +1,19 @@
+h1,
+.background {
+    background-color: rgb(193, 199, 181)
+}
+.font {
+    font-family: sans-serif;
+}
+.size {
+    font-size: 50px;
+}
+.bold {
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
+.background2 {
+    background-color: whitesmoke;
+}
