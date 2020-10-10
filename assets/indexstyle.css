@@ -1,6 +1,4 @@
 h1,
-.background {
-    background-color: rgb(193, 199, 181)
 }
 .font {
     font-family: sans-serif;
@@ -16,4 +14,17 @@ h1,
 }
 .background2 {
     background-color: whitesmoke;
+}
+.background3 {
+    background-color: grey;
+}
+body {
+    background-image: url(../assets/Images/indexstyle.jpg);
+}
+.col-rad {
+    border-radius: 25px;
+}
+
+.col-rad2 {
+    border-radius: 50px;
 }
