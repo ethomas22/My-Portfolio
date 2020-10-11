@@ -3,26 +3,33 @@ h1,
 .font {
     font-family: sans-serif;
 }
+
 .size {
     font-size: 50px;
 }
+
 .bold {
     font-weight: bold;
 }
+
 .underline {
     text-decoration: underline;
 }
+
 /* background of my container */
 .background2 {
     background-color: whitesmoke;
 }
+
 .background3 {
     background-color: grey;
 }
+
 /* background of body */
 body {
     background-image: url(../assets/Images/indexstyle.jpg);
 }
+
 /* radisus' for different images */
 .col-rad {
     border-radius: 25px;
