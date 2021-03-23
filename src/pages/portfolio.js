@@ -1,4 +1,10 @@
 import React from "react";
+import HoriseonNewcopy3 from '../images/HoriseonNewcopy3.png'
+import upnext from '../images/upnext.png'
+import Password from '../images/Password.png'
+import dogplaceholder from '../images/dogplaceholder.jpg'
+import screenshot from '../images/screenshot.png'
+import artwlarisse from '../images/artwlarisse.png'
 
 export default function Portfolio() {
   return (
@@ -13,7 +19,7 @@ export default function Portfolio() {
                 <a href="https://ethomas22.github.io/Horiseon-Code-Refactor/" />
                 <img
                   className="img-fluid img-thumbnail"
-                  src="assets/Images/HoriseonNew copy3.png"
+                  src={HoriseonNewcopy3}
                   alt="HoriseonRefactor"
                 />
               </div>
@@ -21,7 +27,7 @@ export default function Portfolio() {
                 <a href="https://ducktrshessami.github.io/up-next/" />
                 <img
                   className="img-fluid img-thumbnail"
-                  src="assets/Images/upnext.png"
+                  src={upnext}
                   alt="upnext"
                 />
               </div>
@@ -31,7 +37,7 @@ export default function Portfolio() {
                 <a href="https://ethomas22.github.io/Password-Generator/" />
                 <img
                   className="img-fluid img-thumbnail"
-                  src="assets/Images/Password.png"
+                  src={Password}
                   alt="Password-Generator"
                 />
                 Work in Progress!
@@ -40,7 +46,7 @@ export default function Portfolio() {
                 <a href="https://ethomas22.github.io/The-Office-Quiz/" />
                 <img
                   className="img-fluid img-thumbnail"
-                  src="assets/Images/dog-placeholder.jpg"
+                  src={dogplaceholder}
                   alt="officequiz"
                 />
                 Coming Soon!
@@ -49,7 +55,7 @@ export default function Portfolio() {
                 <a href="https://github.com/ethomas22/MVC-Handlebars" />
                 <img
                   className="img-fluid img-thumbnail"
-                  src="assets/Images/screenshot copy.png"
+                  src={screenshot}
                   alt="Yummy Burgers!"
                 />
                 Yummy Burgers!
@@ -58,7 +64,7 @@ export default function Portfolio() {
                 <a href="https://student-registration-tracker.herokuapp.com/" />
                 <img
                   className="img-fluid img-thumbnail"
-                  src="assets/Images/art2.png"
+                  src={artwlarisse}
                   alt="art"
                 />
                 Art With Larisse

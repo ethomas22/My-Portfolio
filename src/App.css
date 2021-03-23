@@ -27,7 +27,7 @@ h1,
 
 /* background of body */
 body {
-    background-image: url(../assets/Images/indexstyle.jpg);
+    background-image: url("./images/indexstyle.jpg");
 }
 
 /* radisus' for different images */

@@ -1,4 +1,5 @@
 import React from "react";
+import Headshot from '../images/headshot.JPG'
 
 export default function Aboutme() {
   return (
@@ -12,7 +13,7 @@ export default function Aboutme() {
               <div className="col-sm-6 col-md-8 col-lg-4">
                 <img
                   className="img-fluid col-rad2"
-                  src="assets/Images/headshot.JPG"
+                  src={Headshot}
                   alt="headshot"
                 />
               </div>
