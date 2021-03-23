@@ -1,6 +1,6 @@
 import React from "react";
 
-function Portfolio() {
+export default function Portfolio() {
   return (
     <main>
       <div className="container">

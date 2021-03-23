@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+h1,
+/* font for my nav */
+.font {
+    font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.size {
+    font-size: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bold {
+    font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.underline {
+    text-decoration: underline;
 }
 
-.App-link {
-  color: #61dafb;
+/* background of my container */
+.background2 {
+    background-color: whitesmoke;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.background3 {
+    background-color: grey;
+}
+
+/* background of body */
+body {
+    background-image: url(../assets/Images/indexstyle.jpg);
+}
+
+/* radisus' for different images */
+.col-rad {
+    border-radius: 25px;
+}
+
+.col-rad2 {
+    border-radius: 50px;
 }
